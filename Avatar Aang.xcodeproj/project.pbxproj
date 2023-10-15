@@ -8,17 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		9422C40D2ADACEE4003EE9A1 /* Avatar_AangApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9422C40C2ADACEE4003EE9A1 /* Avatar_AangApp.swift */; };
-		9422C40F2ADACEE4003EE9A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9422C40E2ADACEE4003EE9A1 /* ContentView.swift */; };
+		9422C40F2ADACEE4003EE9A1 /* CharactersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9422C40E2ADACEE4003EE9A1 /* CharactersListView.swift */; };
 		9422C4112ADACF01003EE9A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9422C4102ADACF01003EE9A1 /* Assets.xcassets */; };
 		9422C4142ADACF01003EE9A1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9422C4132ADACF01003EE9A1 /* Preview Assets.xcassets */; };
+		9422C41D2ADAD52A003EE9A1 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9422C41C2ADAD52A003EE9A1 /* Character.swift */; };
+		9422C4212ADAD9C5003EE9A1 /* CharactersListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9422C4202ADAD9C5003EE9A1 /* CharactersListViewModel.swift */; };
+		9422C4242ADAEB8A003EE9A1 /* CachedAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = 9422C4232ADAEB8A003EE9A1 /* CachedAsyncImage */; };
+		9422C4272ADAEF82003EE9A1 /* CharacterInfoCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9422C4262ADAEF82003EE9A1 /* CharacterInfoCellView.swift */; };
+		9422C4292ADBB4FF003EE9A1 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9422C4282ADBB4FF003EE9A1 /* AuthView.swift */; };
+		9422C42B2ADBB646003EE9A1 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9422C42A2ADBB646003EE9A1 /* AuthViewModel.swift */; };
+		9422C42D2ADBB6D0003EE9A1 /* FullInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9422C42C2ADBB6D0003EE9A1 /* FullInfoView.swift */; };
+		9422C42F2ADBB710003EE9A1 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9422C42E2ADBB710003EE9A1 /* UIApplication.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9422C4092ADACEE4003EE9A1 /* Avatar Aang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Avatar Aang.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9422C40C2ADACEE4003EE9A1 /* Avatar_AangApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avatar_AangApp.swift; sourceTree = "<group>"; };
-		9422C40E2ADACEE4003EE9A1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9422C40E2ADACEE4003EE9A1 /* CharactersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersListView.swift; sourceTree = "<group>"; };
 		9422C4102ADACF01003EE9A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9422C4132ADACF01003EE9A1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9422C41C2ADAD52A003EE9A1 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		9422C4202ADAD9C5003EE9A1 /* CharactersListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersListViewModel.swift; sourceTree = "<group>"; };
+		9422C4262ADAEF82003EE9A1 /* CharacterInfoCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterInfoCellView.swift; sourceTree = "<group>"; };
+		9422C4282ADBB4FF003EE9A1 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		9422C42A2ADBB646003EE9A1 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		9422C42C2ADBB6D0003EE9A1 /* FullInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullInfoView.swift; sourceTree = "<group>"; };
+		9422C42E2ADBB710003EE9A1 /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9422C4242ADAEB8A003EE9A1 /* CachedAsyncImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,7 +68,10 @@
 			isa = PBXGroup;
 			children = (
 				9422C40C2ADACEE4003EE9A1 /* Avatar_AangApp.swift */,
-				9422C40E2ADACEE4003EE9A1 /* ContentView.swift */,
+				9422C41E2ADAD52F003EE9A1 /* Model */,
+				9422C4252ADAEF2F003EE9A1 /* Views */,
+				9422C4302ADBB722003EE9A1 /* Extensions */,
+				9422C4312ADBB73D003EE9A1 /* ViewModels */,
 				9422C4102ADACF01003EE9A1 /* Assets.xcassets */,
 				9422C4122ADACF01003EE9A1 /* Preview Content */,
 			);
@@ -65,6 +84,42 @@
 				9422C4132ADACF01003EE9A1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9422C41E2ADAD52F003EE9A1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9422C41C2ADAD52A003EE9A1 /* Character.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9422C4252ADAEF2F003EE9A1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9422C40E2ADACEE4003EE9A1 /* CharactersListView.swift */,
+				9422C4282ADBB4FF003EE9A1 /* AuthView.swift */,
+				9422C4262ADAEF82003EE9A1 /* CharacterInfoCellView.swift */,
+				9422C42C2ADBB6D0003EE9A1 /* FullInfoView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9422C4302ADBB722003EE9A1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9422C42E2ADBB710003EE9A1 /* UIApplication.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9422C4312ADBB73D003EE9A1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9422C4202ADAD9C5003EE9A1 /* CharactersListViewModel.swift */,
+				9422C42A2ADBB646003EE9A1 /* AuthViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +138,9 @@
 			dependencies = (
 			);
 			name = "Avatar Aang";
+			packageProductDependencies = (
+				9422C4232ADAEB8A003EE9A1 /* CachedAsyncImage */,
+			);
 			productName = "Avatar Aang";
 			productReference = 9422C4092ADACEE4003EE9A1 /* Avatar Aang.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +169,9 @@
 				Base,
 			);
 			mainGroup = 9422C4002ADACEE4003EE9A1;
+			packageReferences = (
+				9422C4222ADAEB8A003EE9A1 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */,
+			);
 			productRefGroup = 9422C40A2ADACEE4003EE9A1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +198,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9422C40F2ADACEE4003EE9A1 /* ContentView.swift in Sources */,
+				9422C42F2ADBB710003EE9A1 /* UIApplication.swift in Sources */,
+				9422C40F2ADACEE4003EE9A1 /* CharactersListView.swift in Sources */,
+				9422C4292ADBB4FF003EE9A1 /* AuthView.swift in Sources */,
+				9422C4272ADAEF82003EE9A1 /* CharacterInfoCellView.swift in Sources */,
+				9422C42B2ADBB646003EE9A1 /* AuthViewModel.swift in Sources */,
 				9422C40D2ADACEE4003EE9A1 /* Avatar_AangApp.swift in Sources */,
+				9422C41D2ADAD52A003EE9A1 /* Character.swift in Sources */,
+				9422C4212ADAD9C5003EE9A1 /* CharactersListViewModel.swift in Sources */,
+				9422C42D2ADBB6D0003EE9A1 /* FullInfoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +348,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +378,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -344,6 +414,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9422C4222ADAEB8A003EE9A1 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lorenzofiamingo/swiftui-cached-async-image";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9422C4232ADAEB8A003EE9A1 /* CachedAsyncImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9422C4222ADAEB8A003EE9A1 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */;
+			productName = CachedAsyncImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9422C4012ADACEE4003EE9A1 /* Project object */;
 }

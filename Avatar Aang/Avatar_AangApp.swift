@@ -11,7 +11,7 @@ import SwiftUI
 struct Avatar_AangApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AuthView()
         }
     }
 }
